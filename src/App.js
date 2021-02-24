@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+// import Buttonc from './components/Buttonc'
+// import Buttoncs from './components/Buttoncs'
+// import Layoutt from './components/Layoutt'
+import Tabss from './components/Tabss'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Material UI</h1>
+      {/* <Buttonc /> */}
+      {/* <Buttoncs /> */}
+      {/* <Layoutt /> */}
+      <Tabss />
     </div>
   );
 }
